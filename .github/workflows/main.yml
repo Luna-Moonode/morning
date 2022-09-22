@@ -27,7 +27,7 @@ jobs:
       APP_SECRET: ${{ secrets.APP_SECRET }}
       TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
       USER_ID: ${{ secrets.USER_ID }}
-      START__LOVE_DATE: ${{ secrets.START_LOVE_DATE }}
+      START_LOVE_DATE: ${{ secrets.START_LOVE_DATE }}
       BIRTHDAY_YOU: ${{ secrets.BIRTHDAY_YOU }}
       CITY_YOU: ${{ secrets.CITY_YOU }}
       EXAM_DATE: ${{ secrets.EXAM_DATE}}
