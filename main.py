@@ -16,6 +16,7 @@ template_id = os.environ["TEMPLATE_ID"]
 #--------------------自定义部分开始
 #获取一些信息（在secret里设置）
 today = datetime.now()
+print(os.environ)
 start_love_date = os.environ['START_LOVE_DATE'] #开始恋爱的日期
 city_you = os.environ['CITY_YOU'] #你的城市（在获取中天气被使用）
 birthday_you = os.environ['BIRTHDAY_YOU'] #你的生日
