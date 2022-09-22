@@ -30,3 +30,4 @@ jobs:
       START__LOVE_DATE: ${{ secrets.START_LOVE_DATE }}
       BIRTHDAY_YOU: ${{ secrets.BIRTHDAY_YOU }}
       CITY_YOU: ${{ secrets.CITY_YOU }}
+      EXAM_DATE: ${{ secrets.EXAM_DATE}}
