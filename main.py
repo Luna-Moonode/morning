@@ -65,13 +65,13 @@ wea_you, temperature_you = get_weather(city_you)
 #发送的数据
 data = {
   "weather":{"value":wea_you},
-  "temperature":{"value":temperature_you}
+  "temperature":{"value":temperature_you},
   
   "love_days":{"value":get_ceremony_days(start_love_date)},
   "birthday_left":{"value":get_birthday(birthday_you)},
-  "words":{"value":get_words(), "color":get_random_color()}
+  "words":{"value":get_words(), "color":get_random_color()},
   
-  "exam_days":{"value":get_future_days(exam_date)}
+  "exam_days":{"value":get_future_days(exam_date)},
 }
 
 #发送模板消息
