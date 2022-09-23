@@ -32,7 +32,7 @@ def get_weather(city):
 #获取距离某个纪念日的天数
 def get_ceremony_days(start_date):
   delta = today - datetime.strptime(start_date, "%Y-%m-%d")
-  return delta.days
+  return delta.days + 1
 
 #获取距离未来某一天的天数
 def get_future_days(future_date):
