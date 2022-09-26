@@ -64,8 +64,7 @@ client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 wea_you, temperature_you = get_weather(city_you)
 
-words = "宝，昨天让你不开心了，应该问问你在干嘛，你的安排，然后再说睡觉。\n最后是因为太困了所以就没有和你看视频，感觉宝挺委屈的，昨天是我不好，我那样显得很不在乎你，对不起宝贝，\
-今天晚上我们补上好不好，今天晚上和宝打solo然后一起看视频好不好\n\n\n\n\n（宝公众号回复的消息我暂时还看不到，宝有想说的可以去QQ说）"
+words = "大烨(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤我爱你~"
 #发送的数据
 data = {
   "weather":{"value":wea_you},
@@ -73,7 +72,7 @@ data = {
   
   "love_days":{"value":get_ceremony_days(start_love_date)},
   "birthday_left":{"value":get_birthday(birthday_you)},
-  "words":{"value":words},
+  "words":{"value":words, "color": get_random_color()},
   
   "exam_days":{"value":get_future_days(exam_date)},
 }
