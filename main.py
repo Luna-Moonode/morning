@@ -64,7 +64,7 @@ client = WeChatClient(app_id, app_secret)
 wm = WeChatMessage(client)
 wea_you, temperature_you = get_weather(city_you)
 
-words = "大烨(๑′ᴗ‵๑)Ｉ Lᵒᵛᵉᵧₒᵤ❤我爱你~"
+words = "never gonna give you up, never gonna let you down"
 #发送的数据
 data = {
   "weather":{"value":wea_you},
